@@ -1,0 +1,12 @@
+bin/bipmesh
+bin/ig2image
+bin/mosmesh
+bin/PISC2UKY
+bin/pisces.bin
+bin/skel
+bin/tri
+cmake/
+examples/pisces/test01/ivds.log
+examples/pisces/test01/ivgs.log
+examples/pisces/test01/n4slv0.slv
+examples/pisces/test01/nmesh.msh
