@@ -1,5 +1,7 @@
 # PISCES を docker コンテナで動かす。
 
+2022-08-29
+
 ## はじめに
 
 何分にも古いコードで最近の環境ではビルドできないし、動かない。
@@ -77,8 +79,7 @@ popd
 
 下記の手順にそのまま倣った
 
-- [Docker開発環境(2): コンテナのユーザーとホストのユーザーをマップする](https://zenn.dev/
-https://zenn.dev/anyakichi/articles/73765814e57cba
+- [Docker開発環境(1): ownerがrootになるのを回避する](https://zenn.dev/anyakichi/articles/0fb5865cc5e1e3) / [Docker開発環境(2): コンテナのユーザーとホストのユーザーをマップする](https://zenn.dev/anyakichi/articles/73765814e57cba)
   - コンテナ内でホストの自分の uid/gid でビルドができるようにする。
   - コンテナ内には当該 uid/gid を持つ正しいユーザーが存在する。
   - コンテナ内には予め用意されたホームディレクトリが存在する。
